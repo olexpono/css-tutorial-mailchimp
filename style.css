@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Helvetica", sans-serif;
+  background-color: #efefef;
+}
+
+body {
+  /*
+  background-image: url("desk.jpg");
+  background-size: cover;
+  background-position: 50% 85%;
+  */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header {
+  display: block;
+  position: relative;
+  background: white;
+  padding: 10px 0;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+
+.header-inner {
+  padding-left: 60px;
+}
+
+.right-side {
+  position: absolute;
+  top: 12px;
+  right: 60px;
+}
+
+.nav-link {
+  /* Navigation links should be side by side! */
+  display: block;
+
+
+  line-height: 38px;
+  font-size: 13px;
+  padding: 0 11px;
+  color: #2c2c2c;
+}
+
+.nav-link.sign-up {
+  /* This button should be red! */
+
+
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+.logo {
+  height: 38px;
+  padding-right: 20px;
+  width: auto;
+}
+
+.content {
+  /* How can we make everything here centered? */
+
+
+}
+
+h1 {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  color: #2c2c2c;
+}
+
